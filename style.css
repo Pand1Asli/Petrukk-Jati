@@ -1,0 +1,143 @@
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Warna latar belakang yang lembut */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.gambar {
+    flex: 1;
+    margin-right: 20px;
+}
+.keterangan {
+    flex: 2;
+}
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+nav a.active {
+    border-bottom: 2px solid rgb(249, 249, 249);
+}
+
+.footer {
+    background: var(--light-yellow);
+    padding-bottom: 8rem;
+  }
+  
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    color: var(--black);
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: var(--light-color);
+  }
+  
+  .footer .box-container .box a i {
+    padding-right: 0.5rem;
+    color: var(--black);
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--black);
+  }
+  
+main {
+    margin-bottom: 50px; /* Sesuaikan dengan tinggi footer Anda */
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+.row .map {
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: 0.5rem;
+  }
+  .beli-sekarang-button {
+    display: block;
+    margin-top: 5px;
+    padding: 10px 5px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 107px;
+}
+
